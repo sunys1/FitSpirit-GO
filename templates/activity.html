@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <!-- <link href="./assets/favicon.ico" rel="icon"> -->
+
+  <title>Activities</title>
+
+  <link href="./static/main.a3f694c0.css" rel="stylesheet">
+  <link href="./static/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+ <!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle uarr collapsed" data-toggle="collapse" data-target="#navbar-collapse-uarr">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand site-logo" href="./index.html" title="">
+          <img src="./assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="logo">
+        </a>
+      </div>
+      <!-- <a href="./index.html" title="HomePage">
+        <img src="./assets/images/logo.png" class="navbar-logo-img site-logo" alt="logo">
+      </a> -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html" title="" class="active">Home</a></li>
+          <li><a href="./activity.html" title="" class="active">Activities</a></li>
+          <li><a href="./roadmap.html" title="" class="active">RoadMap</a></li>
+          <li>
+            <p>
+              <a href="https://fitspirit.ca/" target="_blank" class="btn btn-primary navbar-btn" title="">Learn More</a>
+            </p>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+
+
+<div class="section-container">
+    <div class="container">
+        <div class="row section-container-spacer">
+            <div class="col-xs-12">
+                <div class="col-md-8">
+                    <h1>Our activities</h1>
+                </div>
+                <div class="col-md-8">
+                  <div class="button-group">
+                    <input type="checkbox" class="cardfilter" id="school" onclick="filterCards('school')" autocomplete="off">
+                    <label class="custom-btn" for="school">School</label>
+
+                    <input type="checkbox" class="cardfilter" id="group" onclick="filterCards('group')" autocomplete="off">
+                    <label class="custom-btn" for="group">Group</label>
+
+                    <input type="checkbox" class="cardfilter" id="personal" onclick="filterCards('personal')" autocomplete="off">
+                    <label class="custom-btn" for="personal">Personal</label>
+
+                    <input type="checkbox" class="cardfilter" id="equipment" onclick="filterCards('equipment')" autocomplete="off">
+                    <label class="custom-btn" for="equipment">Equipments</label>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row main-container">
+            <div class="cards">
+              <div class="card card-1 school">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                
+              </div>
+              <div class="card card-2 personal">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                
+              </div>
+              <div class="card card-3 personal equipment">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Ut enim ad minim veniam.</h2>
+                
+              </div>
+              <div class="card card-4">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Quis nostrud exercitation ullamco laboris nisi.</h2>
+                
+              </div>
+              <div class="card card-5">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Ut aliquip ex ea commodo consequat. Duis aute irure dolor.</h2>
+                
+              </div>
+              <div class="card card-1">
+                <p class="card__exit"></p>
+                <p>
+                  <button class="custom-btn attend">Attend</button>
+                </p>
+                <h2 class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                
+              </div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+
+<footer>
+    <div class="section-container footer-container">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4">
+                        <h4>About us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+  });
+</script>
+
+<script type="text/javascript" src="./static/main.41beeca9.js"></script></body>
+<script type="text/javascript" src="./static/script.js"></script></body>
+</html>
