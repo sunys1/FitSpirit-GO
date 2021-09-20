@@ -1,6 +1,8 @@
 # FitSpirit GO 
 ### Morgan Stanley Code To Give Hackathon - Fillactive Team 3
 
+https://sunys1.github.io/FitSpirit-GO/
+
 FitSpirit GO is ideally a cross-plaform application that helps the non-profit partner "FitSpirit" encourge Quebec high school teenage girls to participate in more sports & physical activities. 
 
 With this app, we mainly focus on helping "FitSpirit" to: 
